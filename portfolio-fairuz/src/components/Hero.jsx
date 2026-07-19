@@ -50,7 +50,7 @@ export default function Hero() {
           <div className="flex flex-wrap gap-4 mt-10">
 
             <a
-                href="/cv/Fairuz_Afif_Herdanto_CV.pdf"
+                href={`${import.meta.env.BASE_URL}cv/Fairuz_Afif_Herdanto_CV.pdf`}
                 download
                 className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl flex items-center gap-2 transition"
             >
