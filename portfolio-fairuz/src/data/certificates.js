@@ -4,8 +4,8 @@ export const certificates = [
     title: "CCNA Routing and Switching: Introduction to Network",
     issuer: "Cisco Networking Academy",
     year: "2020",
-    image: "/certificates/ccna-network.png",
-    credential: "/certificates/ccna-network.png",
+    image: `${import.meta.env.BASE_URL}certificates/ccna-network.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/ccna-network.png`,
   },
 
   {
@@ -13,8 +13,8 @@ export const certificates = [
     title: "Cisco Cybersecurity Essentials",
     issuer: "Cisco Networking Academy",
     year: "2021",
-    image: "/certificates/ccna-cybersecurity.png",
-    credential: "/certificates/ccna-cybersecurity.png",
+    image: `${import.meta.env.BASE_URL}certificates/ccna-cybersecurity.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/ccna-cybersecurity.png`,
   },
 
   {
@@ -22,8 +22,8 @@ export const certificates = [
     title: "HMIF Certificate",
     issuer: "Institut Teknologi Telkom Purwokerto",
     year: "2024",
-    image: "/certificates/hmif.png",
-    credential: "/certificates/hmif.png",
+    image: `${import.meta.env.BASE_URL}certificates/hmif.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/hmif.png`,
   },
 
   {
@@ -31,8 +31,8 @@ export const certificates = [
     title: "PKL Certificate",
     issuer: "PLN ICON PLUS Purwokerto",
     year: "2025",
-    image: "/certificates/pkl.png",
-    credential: "/certificates/pkl.png",
+    image: `${import.meta.env.BASE_URL}certificates/pkl.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/pkl.png`,
   },
 
   {
@@ -40,7 +40,7 @@ export const certificates = [
     title: "Junior Cyber Security",
     issuer: "Badan Nasional Sertifikasi Profesi",
     year: "2025",
-    image: "/certificates/bnsp-cyber.png",
-    credential: "/certificates/bnsp-cyber.png",
+    image: `${import.meta.env.BASE_URL}certificates/bnsp-cyber.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/bnsp-cyber.png`,
   },
 ];

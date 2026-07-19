@@ -6,11 +6,11 @@ export const projects = [
     status: "Completed",
 
     images: [
-        "/projects/hydroponic/dashboard.png",
-        "/projects/hydroponic/riwayat.png",
-        "/projects/hydroponic/alat.png",
-        "/projects/hydroponic/rangkaian.png",
-        "/projects/hydroponic/kebun.png",
+        `${import.meta.env.BASE_URL}projects/hydroponic/dashboard.png`,
+        `${import.meta.env.BASE_URL}projects/hydroponic/riwayat.png`,
+        `${import.meta.env.BASE_URL}projects/hydroponic/alat.png`,
+        `${import.meta.env.BASE_URL}projects/hydroponic/rangkaian.png`,
+        `${import.meta.env.BASE_URL}projects/hydroponic/kebun.png`,
     ],
 
     description:
@@ -36,7 +36,7 @@ export const projects = [
     status: "Completed",
 
     images: [
-        "/projects/cekrekin/home.png",
+        `${import.meta.env.BASE_URL}projects/cekrekin/home.png`,
     ],
 
     description:
@@ -58,7 +58,7 @@ export const projects = [
     status: "Completed",
 
     images: [
-        "/projects/queue/home.png",
+        `${import.meta.env.BASE_URL}projects/queue/home.png`,
     ],
 
     description:
