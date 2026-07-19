@@ -51,7 +51,8 @@ export default function Hero() {
 
             <a
                 href={`${import.meta.env.BASE_URL}cv/Fairuz_Afif_Herdanto_CV.pdf`}
-                download
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-xl flex items-center gap-2 transition"
             >
                 <FaDownload />
