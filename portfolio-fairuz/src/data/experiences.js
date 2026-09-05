@@ -69,23 +69,25 @@ export const experiences = [
 
     icon:FaNetworkWired,
 
-    title:"Network Engineer",
+    title:"Network Engineer Intern",
 
     type:"Full Time",
 
     company:"PLN ICON PLUS Jakarta",
 
     description:[
-      "Performed fiber optic troubleshooting for residential and enterprise customers.",
-      "Conducted ONU/ONT activation and customer installations.",
-      "Configured MikroTik routers, Cisco routers, and Cisco switches.",
-      "Implemented VLAN and IP addressing.",
-      "Installed customer networking equipment."
+      "Installed and configured network devices, primarily FiberHome, BDCOM, and Huawei routers, including network and management parameters to establish connectivity and enable remote access by the NOC team.",
+      "Supported the activation and implementation of corporate network services, including Metro Ethernet services.",
+      "Performed testing and commissioning to verify service connectivity and readiness, including BER testing for high-capacity links when required.",
+      "Conducted onsite troubleshooting during network incidents by inspecting network devices, physical connections, and optical signal levels using an Optical Power Meter (OPM).",
+      "Coordinated with the NOC team during service activation and troubleshooting to support remote diagnostics, configuration, and service recovery.",
+      "Prepared technical documentation and service activation/testing reports."
     ],
 
     skills:[
       "Fiber Optic",
-      "MikroTik",
+      "Routing",
+      "Switching",
       "Cisco",
       "VLAN",
       "IP Addressing"

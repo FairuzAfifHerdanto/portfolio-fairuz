@@ -19,6 +19,15 @@ export const certificates = [
 
   {
     id: 3,
+    title: "Network Engineer Intern",
+    issuer: "PLN ICON Plus",
+    year: "2021 - 2022",
+    image: `${import.meta.env.BASE_URL}certificates/internship icon plus.png`,
+    credential: `${import.meta.env.BASE_URL}certificates/internship icon plus.png`,
+  },
+
+  {
+    id: 3,
     title: "HMIF Certificate",
     issuer: "Institut Teknologi Telkom Purwokerto",
     year: "2024",

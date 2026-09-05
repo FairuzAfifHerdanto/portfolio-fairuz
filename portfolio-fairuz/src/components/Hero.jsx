@@ -17,9 +17,6 @@ export default function Hero() {
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
         >
-          <p className="text-blue-400 text-lg mb-4">
-            👋 Hello, I'm
-          </p>
 
           <h1 className="text-5xl lg:text-7xl font-bold leading-tight">
             Fairuz Afif

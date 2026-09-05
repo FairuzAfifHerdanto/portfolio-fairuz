@@ -1,6 +1,34 @@
 export const projects = [
   {
     id: 1,
+    title: "Network Infrastructure Design & Simulation",
+    category: "Network Project",
+    status: "Completed",
+
+    images: [
+        `${import.meta.env.BASE_URL}projects/networking/Network Hotel Management.png`,
+        `${import.meta.env.BASE_URL}projects/networking/Network Campus Management.png`,
+    ],
+
+    description:
+      "Designed and simulated hotel and campus network infrastructures using Cisco Packet Tracer, implementing VLAN segmentation, inter-VLAN routing, OSPF, DHCP, SSH, and port security. The projects focused on building secure, scalable, and reliable networks across multiple departments, floors, and campus locations.",
+
+    technologies: [
+      "Cisco Packet Tracer",
+      "VLAN",
+      "Trunking",
+      "Inter-VLAN Routing",
+      "OSPF",
+      "DHCP",
+      "SSH",
+      "Port Security",
+      "Layer 3 Switching",
+    ],
+
+  },
+
+  {
+    id: 2,
     title: "Hydroponic IoT Monitoring System",
     category: "Final Project",
     status: "Completed",
@@ -30,7 +58,7 @@ export const projects = [
   },
 
   {
-    id: 2,
+    id: 3,
     title: "Cekrekin.id",
     category: "Web Application",
     status: "Completed",
@@ -52,7 +80,7 @@ export const projects = [
   },
 
   {
-    id: 3,
+    id: 4,
     title: "Visitor Queue Management",
     category: "Internship Project",
     status: "Completed",
